@@ -1,6 +1,18 @@
 {
   "short_name": "Biblioteca Nexus",
   "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "FullLogo.png",
+      "sizes": "672x205",
+      "type": "image/png"
+    },
+    {
+      "src": "TextlessLogo.png",
+      "sizes": "167x205",
+      "type": "image/png"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
