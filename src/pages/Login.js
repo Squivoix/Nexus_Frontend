@@ -7,13 +7,17 @@ function Login() {
                 <img src="/TextlessLogo.png" alt="Nexus Logo" />
             </section>
             <section>
-                <form>
-                    <label>Usuário</label>
-                    <input type="text" />
-                    <label>Senha</label>
-                    <input type="password" />
+                <form name="loginForm" method="post" action="" >
+                    <label htmlFor="loginUsername">Usuário</label>
+                    <input type="text" id="loginUsername" required autoFocus />
+
+                    <label htmlFor="loginPassword" required>Senha</label>
+                    <input type="password" id="loginPassword" required />
+
+                    <a href="./">Esqueceu a senha?</a>
+                    <a href="./">Criar uma conta nova</a>
+
                     <input type="submit" value="Login" />
-                    <input type="button" value="Registrar" />
                 </form> 
             </section>
         </main>
