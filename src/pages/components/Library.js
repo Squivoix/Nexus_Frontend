@@ -1,12 +1,10 @@
 import './Library.css';
-import Aside from './Aside.js';
+
+// Here we need to set the navigation.
 
 function Library() {
     return (
         <>
-            <Aside />
-            <main>
-            </main>
         </>
     );
 }

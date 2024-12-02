@@ -11,6 +11,11 @@
       "src": "TextlessLogo.png",
       "sizes": "167x205",
       "type": "image/png"
+    },
+    {
+      "src": "DefaultUserIcon.jpg",
+      "sizes": "400x400",
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
